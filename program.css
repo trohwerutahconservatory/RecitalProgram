@@ -11,11 +11,11 @@ body
 }
 
 
-/* .imageLogo
+.imageLogo
 {
-    display: none;      
-} */
-
+    width: 50%;
+    height: 50%;
+}
 h1
 {
     margin: 2px;
