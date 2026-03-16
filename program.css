@@ -1,7 +1,7 @@
 body
 {
     background-color: #19998a;
-    color: black;
+    color: white;
     font-size: 16px;
     font-weight: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,7 +16,10 @@ body
     max-width: 100%;
     height: auto;     /* Maintains aspect ratio */
     display: block;   /* Removes inline spacing issues */
+    margin-left: auto;       /* Auto margins center horizontally */
+    margin-right: auto;
 }
+
 h1
 {
     margin: 2px;
