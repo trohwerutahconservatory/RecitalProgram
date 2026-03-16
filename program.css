@@ -13,11 +13,10 @@ body
 
 .imageLogo
 {
-    max-width: 100%;
-    height: auto;     /* Maintains aspect ratio */
-    display: block;   /* Removes inline spacing issues */
-    margin-left: auto;       /* Auto margins center horizontally */
-    margin-right: auto;
+    max-width: 400px;
+    width: 90%;
+    height: auto;
+    margin: auto;
 }
 
 h1
