@@ -13,8 +13,9 @@ body
 
 .imageLogo
 {
-    width: 50%;
-    height: 50%;
+    max-width: 100%;
+    height: auto;     /* Maintains aspect ratio */
+    display: block;   /* Removes inline spacing issues */
 }
 h1
 {
