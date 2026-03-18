@@ -145,7 +145,7 @@ function addFooterLine(container, text, className)
 //RECITAL PROGRAM SPECIFIC
 //Global Variables
 
-const urlForSheetJSON_DATA = "https://script.google.com/macros/s/AKfycby35XtNr4cD5jBal7FG9NhZlhI3Qx7RXNptQKuAeZdJ2PqU2gKcbv9IXfjetgcaGvRH/exec";
+const urlForSheetJSON_DATA = "https://script.google.com/macros/s/AKfycbxifSs8Cx-frGVPsOuZ1MhTr7V8g_-mQPAn3MWo3wTr8Lmykao046Fd40IFlEcINZSv/exec";
 
 function changeRecitalTimeElement (recitalTime_fromSheet)
 {
