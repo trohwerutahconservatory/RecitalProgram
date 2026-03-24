@@ -2,7 +2,7 @@ body
 {
     background-color: #19998a;
     color: white;
-    font-size: clamp(20px, 2.5vw, 26px);
+    font-size: clamp(18px, 2.0vw, 26px);
     font-weight: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -13,7 +13,7 @@ body
 
 .imageLogo
 {
-    width: clamp(40px, 15%, 100px);
+    width: clamp(60px, 15%, 100px);
     height: auto;
     margin: auto;
 }
@@ -25,7 +25,7 @@ h1
 h2
 {
     margin: 3px;
-    padding: 4px;
+    padding: 3px;
 }
 h3
 {
@@ -48,13 +48,13 @@ ul
     font-style: italic;
 }
 
-.recitalDate
+.recitalTime
 {
-    font-weight: normal;
-
+    display: none;
 }
 
-.recitalPlace
+.recitalPlace,
+.recitalTime
 {    
     font-weight: normal;
 }
@@ -297,7 +297,7 @@ ul
 
     .imageLogo
     {
-        width: clamp(40px, 10%, 80px);
+        width: clamp(60px, 20%, 100px);
         height: auto;
         margin: auto;
         display: block;
@@ -320,6 +320,11 @@ ul
     .recital-selector
     {
         display: none;
+    }
+
+    .recitalTime
+    {
+        display: block;
     }
 
     h1, h2, h3
