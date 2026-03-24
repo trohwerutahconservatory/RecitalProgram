@@ -13,8 +13,7 @@ body
 
 .imageLogo
 {
-    max-width: 400px;
-    width: 90%;
+    width: clamp(40px, 15%, 100px);
     height: auto;
     margin: auto;
 }
@@ -125,20 +124,9 @@ ul
     margin-bottom: 0.5%;
 }
 
-.recital-selector *,
-.recital-selector label,
-.recital-selector select,
-.dropdown,
-.dropdown-btn
-{
-    font-size: clamp(18px, 2.0vw, 26px);
-}
-
-
-
-
 .recital-selector *
 {
+    font-size: clamp(16px, 2.0vw, 20px);
     
 
     position: relative;
@@ -153,10 +141,10 @@ ul
 }
 .recital-selector select
 {
-    margin: 12px;
+    margin: 2px;
     background-color: #B95808;
     color: white;
-    padding: 10px 16px;
+    padding: 8px 10px;
     border: none;
     cursor: pointer;
     border-radius: 4px;
@@ -178,10 +166,10 @@ ul
 {
     background-color: #3498db;
     color: white;
-    padding: 10px 16px;
+    padding: 8px 10px;
     border: none;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 .dropdown-btn:hover
@@ -295,7 +283,7 @@ ul
 {
     .only-mobile
     {
-        display: none;
+        display: none !important;
     }
     body
     {
@@ -309,8 +297,7 @@ ul
 
     .imageLogo
     {
-        max-width: 100px;
-        width: 15%;
+        width: clamp(40px, 10%, 80px);
         height: auto;
         margin: auto;
         display: block;
@@ -402,7 +389,7 @@ ul
 
     .footer
     {
-        font-size: 10pt;
+        font-size: clamp(9px, 1.5vw, 13px);
         margin-bottom: 3%;
     }
 
@@ -429,17 +416,6 @@ ul
     padding: 8px;
     margin-bottom: 6px;
     display: none;
-}
-
-@media (max-width: 600px)
-{
-    .imageLogo
-    {
-        max-width: 200px;
-        width: 20%;
-        height: auto;
-        margin: auto;
-    }
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
