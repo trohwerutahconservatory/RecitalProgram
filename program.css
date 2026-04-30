@@ -1,7 +1,7 @@
 body
 {
-    background-color: #19998a;
-    color: white;
+    background-color: white;
+    color: #333333;
     font-size: clamp(18px, 2.0vw, 26px);
     font-weight: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
