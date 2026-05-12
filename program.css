@@ -61,7 +61,7 @@ ul
 
 .musical-number
 {
-    font-size: clamp(12pt, 1.7vw, 16px);;
+    font-size: clamp(13pt, 1.7vw, 17px);;
     font-weight: 400;
     clear: both;
     break-inside: avoid;
@@ -105,7 +105,7 @@ ul
 
 .footer
 {
-    font-size: clamp(12pt, 1.5vw, 15px);
+    font-size: clamp(11pt, 1.5vw, 14px);
     margin-bottom: 0.75%;
 }
 
