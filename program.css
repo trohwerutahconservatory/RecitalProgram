@@ -105,21 +105,21 @@ ul
 
 .footer
 {
-    font-size: clamp(12pt, 2.5vw, 15px);
+    font-size: clamp(12pt, 1.5vw, 15px);
     margin-bottom: 0.75%;
 }
 
 .footerHonors
 {
     font-style: italic;
-    font-size: clamp(10px, 2.5vw, 13px);
+    font-size: clamp(10px, 1.5vw, 13px);
     text-align: left;
     margin-bottom: 0.25%;
 }
 
 .footerEtiquette
 {
-    font-size: clamp(11px, 2.5vw, 14px);
+    font-size: clamp(11px, 1.5vw, 14px);
     text-align: left;
     margin-bottom: 0.5%;
 }
