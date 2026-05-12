@@ -1,6 +1,6 @@
 body
 {
-    background-color: white;
+    background-color: #aaaaaa;
     color: #333333;
     font-size: clamp(18px, 2.0vw, 26px);
     font-weight: normal;
